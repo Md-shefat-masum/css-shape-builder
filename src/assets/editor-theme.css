@@ -1,0 +1,14 @@
+:root {
+  --cf-bg-main: #06111f;
+  --cf-bg-panel: #0b1626;
+  --cf-bg-panel-soft: #101c2e;
+  --cf-border: rgba(125, 211, 252, 0.18);
+  --cf-border-strong: rgba(34, 211, 238, 0.55);
+  --cf-cyan: #22d3ee;
+  --cf-blue: #3b82f6;
+  --cf-purple: #8b5cf6;
+  --cf-red: #ef4444;
+  --cf-text: #e5f4ff;
+  --cf-muted: #8aa3b8;
+  --cf-grid: rgba(34, 211, 238, 0.12);
+}
