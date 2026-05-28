@@ -199,6 +199,7 @@ export default {
       if (!newLayer) return
 
       this.selectElement(newLayer.id)
+      this.setTool(EDITOR_TOOLS.SELECT)
       historyStore.addHistory({
         type: 'ELEMENT_ADDED',
         label: 'Element Added',

@@ -434,10 +434,11 @@ kbd {
 
 .cf-editor-root.is-selected,
 .cf-editor-element.is-selected {
-    outline: 1px solid var(--cf-cyan);
-    box-shadow:
+    outline: 1px solid rgba(0, 0, 0, 0.619);
+    /* outline: 1px solid var(--cf-cyan); */
+    /* box-shadow:
         0 0 0 1px rgba(34, 211, 238, 0.35),
-        0 0 18px rgba(34, 211, 238, 0.22);
+        0 0 18px rgba(34, 211, 238, 0.22); */
 }
 
 .cf-editor-element {
@@ -584,8 +585,8 @@ kbd {
 .cf-resize-handle {
     position: absolute;
     z-index: 4;
-    border: 1px solid #ffffff;
-    background: #ee2222;
+    border: 1px solid #ffffff8b;
+    background: #ee2222a7;
     box-shadow: 0 0 16px rgba(34, 211, 238, 0.75);
 }
 
@@ -610,8 +611,8 @@ kbd {
 }
 
 .cf-resize-handle {
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 5px;
     padding: 0;
     cursor: nwse-resize;
 }
